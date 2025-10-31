@@ -4,7 +4,7 @@ import { COLORS } from '../../constants/colors';
 
 const statData = [
   { count: '2025', label: 'Play-off Champions', icon: Trophy },
-  { count: '3', label: 'Consecutive Wins', icon: Zap },
+  { count: '5', label: 'Consecutive Wins', icon: Zap },
   { count: 'Home', label: 'Chukker Road Field', icon: MapPin },
 ];
 
