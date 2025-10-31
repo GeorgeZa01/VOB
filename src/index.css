@@ -1,0 +1,71 @@
+/* ==================================== */
+/* 1. Global Styles and Variables */
+/* ==================================== */
+
+:root {
+  /* VOB Macaws Colors (from src/constants/colors.js) */
+  --primary-dark: #1F2848;   /* Dark Navy Blue */
+  --primary-light: #2C3861;  /* Slightly lighter navy */
+  --secondary-red: #E22B29;  /* Bright Red */
+  --accent-yellow: #FDC000;  /* Yellow */
+  --light-gray: #F7F7F7;
+  --text-gray-900: #111827;
+  --text-gray-700: #4B5563;
+  --text-gray-500: #6B7280;
+  --text-gray-400: #9CA3AF;
+}
+
+/* CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Common modern font */
+  line-height: 1.5;
+  color: var(--text-gray-900);
+  background-color: white;
+  min-height: 100vh;
+}
+
+/* Reusable Layout Container */
+.container {
+  max-width: 1280px; /* max-w-7xl */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* px-4 */
+  padding-right: 1rem; /* px-4 */
+}
+
+/* Responsive Padding */
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem; /* sm:px-6 */
+    padding-right: 1.5rem; /* sm:px-6 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem; /* lg:px-8 */
+    padding-right: 2rem; /* lg:px-8 */
+  }
+}
+
+/* Section Padding */
+.section-padding {
+  padding-top: 5rem; /* py-20 */
+  padding-bottom: 5rem; /* py-20 */
+}
+
+/* Reusable Heading Underline */
+.heading-underline {
+  width: 4rem;
+  height: 0.25rem;
+  background-color: var(--secondary-red);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.75rem;
+}
